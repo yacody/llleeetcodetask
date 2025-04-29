@@ -1,3 +1,4 @@
+
 class Solution {
     public boolean containsDuplicate(int[] nums) {
         Map<Integer, Integer> countMap = new HashMap<>();
@@ -14,5 +15,3 @@ class Solution {
             }
         }
         return false;
-    }
-}
